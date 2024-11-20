@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Programming Languages</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="javascript">Home</a>
+        <a href="csharp.html" class="csharp">C#</a>
+        <a href="python.html" class="python">Python</a>
+        <a href="javascript.html" class="javascript">JavaScript</a>
+        <a href="kotlin.html" class="kotlin">Kotlin</a>
+    </div>
+
+    <div class="container">
+        <section>
+            <h1 class="neon-text">JavaScript - Biography</h1>
+            <div style="display: flex; align-items: flex-start; gap: 20px;">
+                <img src="javascript-logo-javascript-icon-transparent-free-png.webp" alt="JavaScript Logo" style="width: 250px; border-radius: 10px;">
+                <div class="text-box" style="flex: 1;">
+                    <p>JavaScript is an interpreted, dynamic, high-level programming language that is one of the pillars of web development. It was created by Brendan Eich in 1995 and has evolved into an essential language for both client-side and server-side development (with Node.js). JavaScript allows you to create interactive web pages, and its ability to integrate with HTML and CSS makes it indispensable for modern web development.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="neon-text">JavaScript Keywords</h2>
+            <div class="text-box">
+                <p><strong>let:</strong> Used to declare variables with block-level scope. It is an improvement over <code>var</code> as it avoids scope issues. For example, <code>let x = 10;</code> declares a variable <code>x</code> that is only accessible within the block in which it is defined.</p>
+                <p><strong>const:</strong> Used to declare constants, meaning values that cannot be reassigned. For example, <code>const PI = 3.14;</code> declares a constant <code>PI</code> that cannot change.</p>
+                <p><strong>function:</strong> Defines a function. Functions in JavaScript can be declared or expressed. For example, <code>function greet() { console.log('Hello'); }</code> defines a function that prints "Hello".</p>
+                <p><strong>async:</strong> Marks a function as asynchronous, meaning it can contain the <code>await</code> keyword. This makes it easier to handle promises. For example, <code>async function fetchData() { let data = await fetch('url'); }</code>.</p>
+                <p><strong>await:</strong> Used inside <code>async</code> functions to wait for the resolution of a promise before continuing the execution of code. For example, <code>let response = await fetch('url');</code> pauses the execution until the promise is resolved.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="neon-text">Conclusion</h2>
+            <div class="participants">
+                <div class="participant-card" style="width: 100%; display: flex; align-items: center; gap: 20px;">
+                    <img src="cocodrilo.jpg" alt="Photo of José De la barra Urquieta" style="width: 150px; border-radius: 50%;">
+                    <div class="text-box" style="flex: 1;">
+                        <h3>Conclusion by José De la barra Urquieta</h3>
+                        <p>JavaScript is an essential language for any web developer. Its ability to manipulate the DOM and its compatibility with multiple frameworks and libraries, such as React, Angular, and Vue, make it a powerful tool. Although its syntax is simple, its asynchronous behavior may require additional learning time. I would recommend JavaScript for anyone looking to develop dynamic and interactive web applications.</p>
+                    </div>
+                </div>
+
+                <div class="participant-card" style="width: 100%; display: flex; align-items: center; gap: 20px;">
+                    <img src="oveja.jpg" alt="Photo of Alex Loza Donalson" style="width: 150px; border-radius: 50%;">
+                    <div class="text-box" style="flex: 1;">
+                        <h3>Conclusion by Alex Loza Donalson</h3>
+                        <p>In my experience, JavaScript has evolved from being a simple scripting tool to a full-fledged platform for application development. Its ecosystem, with Node.js and a vast number of libraries, allows development in both frontend and backend. It is a language that continues to evolve and offers great development and learning opportunities. It is essential for any developer wanting to work in web development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
